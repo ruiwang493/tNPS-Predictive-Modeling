@@ -22,7 +22,7 @@ All found within the output folder. The files that have .xlsx (Excel spreadsheet
 - **testing**: The testing portion of **dataset**, for more information, see **training**.
 - *individ_notes_sql*: the files with 1 and 2 at the end are early, obsolete versions, as *individ_notes_sql3* is the final version. This dataset is the dataset I pulled from MS SQL, with individual NOTES entries being entirely new rows.
 - *combined_notes_sql*: the files with 1 and 2 at the end are early, obsolete versions, as *combined_notes_sql3* is the final version. This dataset is the dataset I pulled from MS SQL after applying the logic to concatenate all the NOTES for each claim (using python).
-- *payments_sql*: The payments data that I pulled from MS SQL after sorting by CLM_NUM.
+- *payments_sql*: The payments data that I pulled from MS SQL after sorting by claim number.
 
 ## SQL
 - **tnps_sql_server**: Query that would get all the data, with notes concatenated. Later abandoned due to how slowly it completed (taking up to some 6 hours). Replaced in functionality by **tnps_sql_server (tnp and payment dates)** and **tnps_sql_server (tnp and individual notes)**, which were combined together in python.
