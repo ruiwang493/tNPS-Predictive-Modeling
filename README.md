@@ -15,7 +15,7 @@ by Rui Wang
 - *baseline_logreg_model.py*: The baseline model I wrote, which is a standard logistic regression classification.
 - *pca*.*py*: Second model that I wrote, improvement on the baseline logistic regression model, this time using logistic regression with PCA.
 
-## Data
+## Data - (Excluded on GitHub due to sensitivity and confidential information)
 All found within the output folder. The files that have .xlsx (Excel spreadsheets) of the same name are as such because of DataRobot. DataRobot does not accept .pkl files as valid datasets for its projects, so I simply copied the .pkl files below into .xlsx ones to use for DataRobot.
 - **dataset**: The main dataset that I used after all the preprocessing and text cleaning and NOTES concatenation. This is the model that I directly loaded up for my models to use.
 - **training**: Since I was going to be training multiple models, it was important for me to standardize and have a universal training data set, which is this one. Similarly for **testing**.
